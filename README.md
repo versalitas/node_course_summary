@@ -5,7 +5,7 @@ sprint 1:
 ### prototype
 
 Protypes are the mechanism by which Javascript objects inherit features from one another.
-Every object has a built in property called prototype. The property is itself an object. The property chain end when we reach a property that has null for its own property.
+Every object has a built in property called prototype. The property is itself an object. The property chain ends when we reach a property that has null for its own property.
 
 Object.prototype
 Date.prototype
