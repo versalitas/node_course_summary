@@ -47,6 +47,25 @@ async function main() {
 
 ## sprint 2
 
-DB SQL
+### DB SQL
 
-DB NoSQL
+- relational (relationship through keys)
+- structured query language and have a predefined schema.
+- vertically scalable
+- table based
+
+### DB NoSQL
+
+- non relational (embedded data, references)
+- dynamic schemas for unstructured data 
+- horizontally scalable
+- documents (key:value)
+
+## sprint 3
+
+### Creational Patterns
+### Behavioural Patterns
+### Behavioural Patterns
+
+
+
