@@ -15,7 +15,6 @@ Date.prototype
 
 Array.prototype
 
-
 ###  callback
 A function that is passed into another function (known as higher function) as an argument.
 The callback function can then be invoked inside the higher order function.
@@ -32,5 +31,18 @@ They can be chained with .then() and error handled with .catch
 
 ###   async/ await
 
+An async function ALWAYS returns a promise. 
+await only works inside an async function.
+JavaScript waits till the promise has resolved.
+If it throws an exception, the promise is rejected.
+
+async function main() {
+  try {
+    var quote = await getQuote();
+    console.log(quote);
+  } catch (error) {
+    console.error(error);
+  }
+}
 
 
