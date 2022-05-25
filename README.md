@@ -16,7 +16,7 @@ Date.prototype
 Array.prototype
 
 ### callback
-A function that is passed into another function (known as higher function) as an argument.
+A function that is passed into another function (known as higher order function) as an argument.
 The callback function can then be invoked inside the higher order function.
 In JS all functions are objects. 
 
