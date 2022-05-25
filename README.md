@@ -66,14 +66,21 @@ async function main() {
 ### Creational Patterns.
 increase flexibility and reuse of existing code
 
-#### singleton
+#### Singleton
 ensure that a class has only one instance, while providing a global access point to this instance.
 
 ### Structural patterns.
 assembles objects and classes into larger structures, while keeping these flexible and efficient.
 
+#### Decorator
+lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
+
 ### Behavioral patterns
 effective communication and the assignment of responsibilities between objects.
 
+#### Observer 
+lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
 
+## Middleware
+provides a method of communication and data management between applications that would otherwise not have any way to exchange data -- such as with software tools and databases.
 
