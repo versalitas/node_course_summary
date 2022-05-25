@@ -63,9 +63,17 @@ async function main() {
 
 ## sprint 3
 
-### Creational Patterns
-### Behavioural Patterns
-### Behavioural Patterns
+### Creational Patterns.
+increase flexibility and reuse of existing code
+
+#### singleton
+ensure that a class has only one instance, while providing a global access point to this instance.
+
+### Structural patterns.
+assembles objects and classes into larger structures, while keeping these flexible and efficient.
+
+### Behavioral patterns
+effective communication and the assignment of responsibilities between objects.
 
 
 
