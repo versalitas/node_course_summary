@@ -81,6 +81,6 @@ effective communication and the assignment of responsibilities between objects.
 #### Observer 
 lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
 
-## Middleware
-provides a method of communication and data management between applications that would otherwise not have any way to exchange data -- such as with software tools and databases.
+### Middleware
+The middleware pattern consists of code that runs (on the server) between getting a request and sending a response. The exit point of each unit is the entry point to the next.
 
