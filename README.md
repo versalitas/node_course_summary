@@ -19,8 +19,18 @@ Array.prototype
 ###  callback
 A function that is passed into another function (known as higher function) as an argument.
 The callback function can then be invoked inside the higher order function.
-In JS all functions are objects.
+In JS all functions are objects. 
+
+setTimeout(() =>  { console.log("Hello World"); }, 300); 
+
+###  promises
+
+Promises are objects that can have three states: pending, resolved and rejected. 
+It is used to manage asynchronous operations (non blocking).
+They can be chained with .then() and error handled with .catch
+
 
 ###   async/ await
 
-###  promises
+
+
