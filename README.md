@@ -17,7 +17,21 @@ Array.prototype
 
 ### class
 
+Classes are a template for creating objects.
+
+Class declaration:
+class Rectangle {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+}
+
+
+
+
 ### callback
+
 A function that is passed into another function (known as higher order function) as an argument.
 The callback function can then be invoked inside the higher order function.
 In JS all functions are objects. 
