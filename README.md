@@ -27,7 +27,7 @@ class Rectangle {
     this.width = width;
   }
 }
-
+```
 
 
 
@@ -36,9 +36,9 @@ class Rectangle {
 A function that is passed into another function (known as higher order function) as an argument.
 The callback function can then be invoked inside the higher order function.
 In JS all functions are objects. 
-
+```
 setTimeout(() =>  { console.log("Hello World"); }, 300); 
-
+```
 ### promises
 
 Promises are objects that can have three states: pending, resolved and rejected. 
@@ -52,7 +52,7 @@ An async function ALWAYS returns a promise.
 await only works inside an async function.
 JavaScript waits till the promise has resolved.
 If it throws an exception, the promise is rejected.
-
+```
 async function main() {
   try {
     var quote = await getQuote();
@@ -61,7 +61,7 @@ async function main() {
     console.error(error);
   }
 }
-
+```
 ## sprint 2
 
 ### DB SQL
