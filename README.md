@@ -20,6 +20,7 @@ Array.prototype
 Classes are a template for creating objects.
 
 Class declaration:
+```
 class Rectangle {
   constructor(height, width) {
     this.height = height;
