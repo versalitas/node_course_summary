@@ -42,8 +42,28 @@ setTimeout(() =>  { console.log("Hello World"); }, 300);
 
 Promises are objects that can have three states: pending, resolved and rejected. 
 It is used to manage asynchronous operations (non blocking).
-They can be chained with .then() and error handled with .catch
+They can be chained with .then() and error handled with .catch().
+´´´
+//this returns the promise
 
+const myPromise = () => {
+  return new Promise((res, rej) => {
+    let yay = true;
+    if(yay){
+      res(Yay');
+    } else {
+    rej('Nay!');
+  }
+}
+
+//here come the results of the successhandler and the errorhandler
+
+myPromise
+.then(resValue => console.log(resValue))
+.catch(rejValue => console.log(rejValue))
+
+
+´´´
 
 ### async/ await
 
