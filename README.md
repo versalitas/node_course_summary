@@ -4,9 +4,8 @@
 
 ### prototype
 
-Protoypes are the mechanisms by which Javascript objects inherit features from one another.
 Every object has a built in property called prototype. 
-The property is itself an object. 
+This property is itself an object. These are the mechanisms by which Javascript objects inherit features from one another.
 The property chain ends when we reach a property that has null for its own property.
 
 Object.prototype
