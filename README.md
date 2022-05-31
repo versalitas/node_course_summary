@@ -43,6 +43,9 @@ setTimeout(() =>  { console.log("Hello World"); }, 300);
 Promises are objects that can have three states: pending, resolved and rejected. 
 It is used to manage asynchronous operations (non blocking).
 They can be chained with .then() and error handled with .catch().
+
+The promise constructor takes a callback function known as the executor function which in its turn takes two functions as parametres... resolve() and reject().
+
 ```
 //this returns the promise
 
