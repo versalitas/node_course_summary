@@ -103,19 +103,20 @@ async function main() {
 ## sprint 3
 
 ### Creational Patterns.
-increase flexibility and reuse of existing code
+Flexibility and reuse of existing code.
 
 #### Singleton
-ensure that a class has only one instance, while providing a global access point to this instance.
+Ensures that a class has only one instance, while providing a global access point to this instance.
 
 ### Structural patterns.
-assembles objects and classes into larger structures, while keeping these flexible and efficient.
+Assembles objects and classes into larger structures, 
+while keeping these flexible and efficient.
 
 #### Decorator
-lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
+Attaches new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
 
 ### Behavioral patterns
-effective communication and the assignment of responsibilities between objects.
+Effective communication and the assignment of responsibilities between objects.
 
 #### Observer 
 lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
