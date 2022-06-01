@@ -113,7 +113,7 @@ Assembles objects and classes into larger structures,
 while keeping these flexible and efficient.
 
 #### Decorator
-Attaches new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
+Allows behavior to be added to an individual object, either statically or dynamically without affecting the behavior of other objects from the same class. They are used to enhance the functionality of the function without modifying the underlying function.
 
 ### Behavioral patterns
 Effective communication and the assignment of responsibilities between objects.
